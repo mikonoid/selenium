@@ -33,9 +33,9 @@ logout.click()
 enter = browser.find_element_by_name( "submit")
 
 if enter.is_displayed():
-    print("test passed")
+    print("logout test passed")
 else:
-    print("test not passed")
+    print("logout test not passed")
 
 ##close browser and display
 browser.close()
