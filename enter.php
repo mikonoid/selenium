@@ -19,7 +19,7 @@ if($_POST['submit']){
 ?>
 <p><a href="index.php">Main page</a> | <a href="admin.php">Admin</a></p>
 <hr />
-authentication required. Softserve Selenium test.
+Authentication required. Softserve Selenium test.
 <br />
 <form method="post">
 	Username: <input type="text" name="user" /><br />
