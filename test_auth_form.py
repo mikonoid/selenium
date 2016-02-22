@@ -27,12 +27,11 @@ submit.click()
 try:
     elem = browser.find_element_by_link_text("Logout")
     if elem.is_displayed():
-        print("test passed")
+        print("auth test passed")
     else:
-        print("test not passed")
+        print("auth test not passed")
 except:
-    print("test not passed")
-
+    print("auth test not passed")
 
 
 #close browser and display
